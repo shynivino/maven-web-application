@@ -42,6 +42,8 @@ get_header(); ?>
 
 			endif; ?>
 		</div><!-- #primary -->
+		<div>
+			<head>welcome to the mob</head>
 		<?php
 		if ( $layout_class == 'sidebar-right' ):
 			get_sidebar();
