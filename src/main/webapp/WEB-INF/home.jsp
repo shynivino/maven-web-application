@@ -43,7 +43,7 @@ get_header(); ?>
 			endif; ?>
 		</div><!-- #primary -->
 		<div>
-			<head>welcome to the mob</head>
+			<head>welcome to the mob world</head>
 		<?php
 		if ( $layout_class == 'sidebar-right' ):
 			get_sidebar();
