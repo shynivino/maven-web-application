@@ -1,69 +1,26 @@
-<?php
-/**
- * The main template file.
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link    https://codex.wordpress.org/Template_Hierarchy
- *
- * @package Shapely
- */
-get_header(); ?>
-<?php $layout_class = shapely_get_layout_class();?>
-	<div class="row">
-		<?php
-		if ( $layout_class == 'sidebar-left' ):
-			get_sidebar();
-		endif;
-		?>
-		<div id="primary" class="col-md-8 mb-xs-24 <?php echo esc_attr( $layout_class ); ?>"><?php
-			if ( have_posts() ) :
 
-				if ( is_home() && ! is_front_page() ) : ?>
-					<header>
-						<h1 class="page-title screen-reader-text"><?php esc_html( single_post_title() ); ?></h1>
-					</header>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-					<?php
-				endif;
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<spring:url value="/resources/images/mithunlogo.jpg" var="mithunlogo" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Chain-sys devops</title>
 
-				$layout_type = get_theme_mod( 'blog_layout_view', 'grid' );
+</head>
+</head>
+<body>
+<h1 align="center">Welcome to devops</h1>
+<h1 align="center">Devops world</h1>
+<hr>
+<div style="text-align: center;">
+        
+        <span style="font-weight: bold;">
+                <head> The world mob class </head?
+        </span>
+</div>
 
-				get_template_part( 'template-parts/layouts/blog', $layout_type );
-
-				shapely_pagination();
-
-			else :
-
-				get_template_part( 'template-parts/content', 'none' );
-
-			endif; ?>
-		</div><!-- #primary -->
-		<div>
-			<head>welcome to the mobWorld</head>
-		<?php
-		if ( $layout_class == 'sidebar-right' ):
-			get_sidebar();
-		endif;
-		?>
-	</div>
-<?php
-get_footer();
-
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
--- INSERT --                                                                    
+</body>
+</html>
