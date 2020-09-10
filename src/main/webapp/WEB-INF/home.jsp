@@ -12,7 +12,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to DevOps World </h1>
+<h1 align="center">Welcome to DevOps</h1>
 <h1 align="center">This is Product based on Chain-sys orgaon</h1>
 <hr>
 <div style="text-align: center;">
