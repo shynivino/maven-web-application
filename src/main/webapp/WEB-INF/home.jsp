@@ -12,14 +12,11 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to DevOps World </h1>
-<h1 align="center">This is Product based on Chain-sys orgaon</h1>
+<h1 align="center">Star Healthcare </h1>
+<h1 align="center">Galaxy project for devops</h1>
 <hr>
 <div style="text-align: center;">
-	<span>
-		<img src="${mithunlogo}" alt="" width="100"/>
-
-	</span>
+	
 	<span style="font-weight: bold;">
 	       Automation Devops method.	
 	</span>
